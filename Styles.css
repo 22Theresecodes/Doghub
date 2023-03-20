@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  padding: 10px 5%;
+  border-bottom: 1px solid #e3e7ee;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+}
+.menu {
+  font-size: 14px;
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu a:hover {
+  font-weight: bold;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem;
+  font-size: 3rem;
+}
+.stylish {
+  font-family: "Dancing Script", cursive;
+}
+.dogs {
+  display: flex;
+  gap: 2rem;
+}
+.pack {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+.select {
+  padding: 1rem;
+}
+.pack button {
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+  color: #fff;
+}
+.breed-list {
+  width: 30%;
+}
+.grid-section {
+  padding: 2.5rem;
+}
+.grid-section-2 {
+  display: flex;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1.5rem;
+}
+/* .grid-container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+.grid-item {
+  width: 100%;
+  grid-auto-rows: auto;
+}
+.title {
+  padding-bottom: 15px;
+  font-size: 48px;
+}
+/* .footer {
+  display: flex;
+  flex-direction: column;
+  background: #fdfeff;
+  border-top: 1px solid #e3e7ee;
+} */
+.first {
+  display: flex;
+  padding: 5% 2.5rem;
+}
+.input {
+  padding: 10px;
+}
+
+.input-group {
+  border: 1px solid black;
+  border-radius: 2rem;
+  height: 3em;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+}
+
+.input-text {
+  border: none;
+  height: 1.2rem;
+  width: 10rem;
+  left: 50rem;
+  top: 150rem;
+  all: unset;
+}
+
+.email-icon {
+  color: #fff;
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.emailInput_cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+.col1 {
+  width: 40%;
+}
+.col2 {
+  width: 20%;
+}
+.col3 {
+  width: 20%;
+}
+.col4 {
+  width: 20%;
+}
+li {
+  list-style-type: none;
+}
+.tag {
+  margin-bottom: 3%;
+}
+.second {
+  border-top: 1px solid #e3e7ee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
+}
+.item-1 {
+  width: 15%;
+}
+.item-2 {
+  width: 25%;
+  display: flex;
+  gap: 1rem;
+}
+.item-3 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.grid-item {
+  height: 456px;
+  width: 350px;
+}
+.grid-item img {
+  height: 100%;
+  width: 100%;
+}
+.social {
+  width: 20%;
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+.select-item {
+  width: 70%;
+  padding: 2%;
+  border-radius: 8px;
+}
+.text {
+  padding-bottom: 1rem;
+}
+.breed-button {
+  all: unset;
+  border: none;
+  color: #5f718c;
+}
+
+
+@media screen and (max-width: 820px) {
+  body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .nav-list{
+    display: none;
+  }
+  .hero{
+    font-size: 1.8rem;
+  }
+  .title{
+    padding-left: 1.2rem;
+  }
+  .dog-item{
+    width: 20%
+  }
+  .dogs{
+    width: 100%;
+    gap:0.5rem;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .pack {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .grid-section {
+    padding: 0.5rem;
+  }
+  .grid-container {
+    text-align: center;
+    grid-template-columns: auto auto;
+  }
+  .pack1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .first {
+    flex-direction: column;
+    gap:1rem;
+  }
+  .col1{
+    width:100%;
+  }
+  .col4{
+    width: 100%;
+  }
+  .second {
+   max-width: 100%;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column-reverse;
+   gap: 1rem
+  }
+  .item-3{
+    width: 100%
+  }
+  .select-item{
+    width: 80%;
+  }
+  .footer-sec2{
+    max-width: 100%;
+    display: flex;
+    padding: 0.2rem;
+  }
+ 
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo">
+        <img src="images/Group 6.svg" alt="dog logo" />
+        <h1>DogHub</h1>
+      </div>
+      <div class="nav-list">
+        <ul class="menu">
+          <a href="#"><li>Variant 1</li></a>
+          <a href="#"><li>Variant 2</li></a>
+        </ul>
+      </div>
+      <div class="date-button"></div>
+    </nav>
+
+    <section>
+      <div class="hero">
+        <div class="dogs">
+          <img src="images/Group 1.svg" alt="dog 1" class="dog-item"/>
+          <img src="images/Group 3.svg" alt="dog 2" class="dog-item"/>
+          <img src="images/Group 4.svg" alt="dog 3" class="dog-item"/>
+          <img src="images/Group 5.svg" alt="dog 4" class="dog-item"/>
+          <img src="images/Group 6.svg" alt="dog 5" class="dog-item"/>
+        </div>
+        <div>
+          <h2>Dog Breeds</h2>
+        </div>
+      </div>
+
+      <div class="pack">
+        <div class="pack1">
+          <select id="breeds" name="Breeds" class="select">
+            <option value="breed">Breed</option>
+          </select>
+
+          <select name="Sub-breeds" class="select">
+            <option value="sub-breed">Sub-breed</option>
+          </select>
+
+          <select id="displayNumber" name="Display Number" class="select">
+            <option value="number">Display Number</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+        </div>
+        <div>
+          <button class="randomizeImg">Randomize Breed Image Display</button>
+        </div>
+      </div>
+    </section>
+    <section class="grid-section">
+      <div class="title">
+        <h3>Hound Breeds</h3>
+      </div>
+      <div class="grid-container">
+        <!-- <div class="grid-item">
+          <img src="images/image.svg" alt="" width="100%" height="100%" />
+        </div>
+        -->
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-section">
+      <div class="first">
+        <div class="col1">
+          <h2 class="tag">
+            <img src="images/Group 6.svg" alt="dog logo" /> DogHub
+          </h2>
+          <p>
+            The Dogs API was made by dog.ceo, you could buy the author a dog
+            treat via this link
+            <a href="#">//www.paypal.com/paypalme/dogapi</a>, you could also
+            view the project on Github via this link
+            <a href="#">https://github.com/ElliottLandsborough/dog-ceo-api</a>
+          </p>
+        </div>
+        <div class="col2">
+          <h2 class="tag">Popular</h2>
+          <ul>
+            <li>Categories</li>
+            <li>New Arrivals</li>
+            <li>Popular</li>
+          </ul>
+        </div>
+        <div class="col3">
+          <h2 class="tag">Breeds</h2>
+          <ul>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="col4">
+          <h2 class="tag">Join newsletter</h2>
+          <p>
+            To learn more and get major updates, subscribe to our newsletter
+          </p>
+          <div class="input-group">
+            <div class="emailInput_cont">
+              <input
+                type="text"
+                placeholder="enter your email address"
+                class="input-text"
+              />
+              <img
+                class="email-icon"
+                src="images/Vector (1).svg"
+                alt="send icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="second">
+        <div class="footer-sec2">
+         <p>&COPY; 2021 wilsulivan</p>
+          <p>Privacy Policy</p>
+          <p>Terms of Service</p>
+       </div>
+
+         <div class="item-3">
+          <label for="input" class="text">Language</label>
+          <select name="English" class="select-item">
+            <option value="English">English</option>
+          </select>
+         </div>
+
+         <div class="social-space">
+           <p>Follow us</p>
+          <span class="social">
+            <img src="images/Vector (2).svg" alt="twitter logo" />
+            <img src="images/Group.svg" alt="instagram logo" />
+            <img src="images/Vector (4).svg" alt="meta logo" />
+          </span>
+          </div>
+
+      </div>
+    </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
