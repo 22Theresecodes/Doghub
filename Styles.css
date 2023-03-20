@@ -160,6 +160,13 @@ li {
   align-items: center;
   padding: 2.5rem;
 }
+.footer-sec2{
+  display: flex;
+  gap: 1rem;
+}
+.secondP{
+  text-decoration: underline;
+ }
 .item-1 {
   width: 15%;
 }
@@ -199,6 +206,10 @@ li {
   all: unset;
   border: none;
   color: #5f718c;
+}
+.first p,li{
+  color:#5F718C;
+  ;
 }
 
 
