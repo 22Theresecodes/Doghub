@@ -178,7 +178,7 @@ li {
 }
 .grid-item {
   height: 456px;
-  width: 350px;
+  width: 550px;
 }
 .grid-item img {
   height: 100%;
@@ -244,15 +244,27 @@ li {
     flex-direction: column;
     gap: 1rem;
   }
+  .grid-item {
+    height: 456px;
+    width: 300px;
+  }
   .first {
     flex-direction: column;
   }
   .grid-section {
     padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .grid-container {
     text-align: center;
     grid-template-columns: auto auto;
+  }
+  .title{
+    align-items: flex-start;
+    font-size: 2.4rem;
   }
   .pack1 {
     display: flex;
@@ -268,6 +280,10 @@ li {
   }
   .col4{
     width: 100%;
+  }
+  .input-group{
+    padding-top: 1rem;
+
   }
   .second {
    max-width: 100%;
