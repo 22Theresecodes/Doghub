@@ -75,9 +75,13 @@
   display: flex;
 }
 .grid-container {
+  margin: 50px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
   row-gap: 1.5rem; 
+  
+  
 }
 .grid-item {
   width: 100%;
@@ -235,10 +239,6 @@ li {
     width: 100%;
     gap:0.5rem;
   }
-  .grid-container {
-    display: flex;
-    flex-direction: column;
-  }
   .pack {
     width: 100%;
     flex-direction: column;
@@ -255,10 +255,13 @@ li {
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
+    gap: 4px;
     justify-content: center;
     align-items: center;
   }
   .grid-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     grid-template-columns: auto auto;
   }
