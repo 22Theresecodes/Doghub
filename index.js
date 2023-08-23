@@ -24,7 +24,7 @@ const fetchBreed = async (name) => {
       const card = document.createElement("div");
       card.innerHTML = `<div class="grid-container">
     <div class="grid-item">
-    <img src="${image}" alt="dog pictures"/>
+    <img src="${image}" alt="dog pictures" width="250" height="250"/>
     </div>
     </div>`;
       cardContainer.appendChild(card);
