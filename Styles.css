@@ -181,8 +181,8 @@ li {
   flex-direction: column;
 }
 .grid-item {
-  height: 250px;
-  width: 250px;
+  height: 456px;
+  width: 350px;
 }
 .grid-item img {
   height: 100%;
